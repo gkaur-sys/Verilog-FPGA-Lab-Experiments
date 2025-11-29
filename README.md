@@ -15,11 +15,12 @@ Structural modeling
 
 Behavioral modeling
 
-3. Adders
+### 3. Ripple Carry Adder
+- 📄 [Full Adder](03_Ripple_Carry_Adder/full_adder.v)
+- 📄 [Ripple Carry Adder](03_Ripple_Carry_Adder/ripple_carry_adder.v)
+- 🧪 [Testbench](03_Ripple_Carry_Adder/testbench.v)
+- 📘 [Report](03_Ripple_Carry_Adder/report.md)
 
-8-bit Ripple Carry Adder using cascaded full adders
-
-Simulation and verification using testbench
 
 4. Arithmetic Logic Units (ALU)
 
