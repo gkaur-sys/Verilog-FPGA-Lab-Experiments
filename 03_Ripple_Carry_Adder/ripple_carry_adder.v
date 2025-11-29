@@ -1,4 +1,5 @@
-module Ripple_carry(
+`timescale 1ns / 1ps
+module ripple_carry_adder(
     input  [0:7] A,
     input  [0:7] B,
     input        C,       
