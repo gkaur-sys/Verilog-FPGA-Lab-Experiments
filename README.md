@@ -25,31 +25,23 @@ Behavioral modeling
 - 📘 [Report](03_Ripple_Carry_Adder/report.md)
 
 
-4. Arithmetic Logic Units (ALU)
+### 4. 4-bit Arithmetic Logic Unit (ALU)
 
-4-bit ALU performing:
+- 📄 **[ALU Verilog Code](04_4bit_ALU/alu.v)**
+- 🧪 **[Testbench](04_4bit_ALU/testbench.v)**
+- 🧩 **[Schematic](04_4bit_ALU/schematic_alu.jpg)**
+- 📊 **[Simulation Waveform](04_4bit_ALU/Alu_waveform.jpg)**
+- 📘 **[Report](04_4bit_ALU/report.md)**
 
-Addition (A+B)
 
-Subtraction (A-B)
 
-AND, OR, NOT, NAND, NOR, XOR
+### 6. 4-bit SIPO Shift Register (D-FF based)
+- 📄 [D Flip-Flop](06_4bit_SIPO_Shift_Register/dflip_flop.v)
+- 📄 [SIPO 4-bit](06_4bit_SIPO_Shift_Register/sipo_4bit.v)
+- 📘 [Report](06_4bit_SIPO_Shift_Register/Report.md)
 
-2-bit ALU
 
-Synthesis and FPGA implementation
 
-5. Shift Registers
-
-4-bit Serial-In Parallel-Out (SIPO) shift register
-
-Modeled using D flip-flops
-
-FPGA implementation
-
-6. Universal Shift Register
-
-Demonstration of IC 74194 operations (shift left, shift right, hold, parallel load)
 
 7. Counters
 
