@@ -11,6 +11,7 @@ This causes the carry to “ripple” from least significant bit (LSB) to most s
 *Full Adder Equations*
 
 Sum=A⊕B⊕C
+
 Cout =AB+ACin+BCin
 
 BLOCK DIAGRAM : 
