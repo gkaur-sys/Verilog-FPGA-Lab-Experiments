@@ -10,13 +10,14 @@ Each experiment folder includes Verilog code, testbench, simulation results, and
 - 🧪 [TB (Behavioral)](01_Y_ABbar_plus_CDbar/testbench_behav.v)
 - 📘 [Report](01_Y_ABbar_plus_CDbar/report.md)
 
-2. Multiplexers
+### 2. 4-to-1 Multiplexer (Behavioral + Structural)
 
-4-to-1 multiplexer
-
-Structural modeling
-
-Behavioral modeling
+- 📄 **[Behavioral Verilog Code](02_4to1_MUX/mux4_behavioral.v)**
+- 📄 **[Structural Verilog Code](02_4to1_MUX/mux4_structural.v)**
+- 🧪 **[Testbench](02_4to1_MUX/testbench.v)**
+- 🧩 **[Schematic](02_4to1_MUX/mux_schematic.jpg)**
+- 📊 **[Waveform](02_4to1_MUX/mux_waveform.jpg)**
+- 📘 **[Report](02_4to1_MUX/report.md)**
 
 ### 3. Ripple Carry Adder
 - 📄 [Full Adder](03_Ripple_Carry_Adder/full_adder.v)
@@ -41,34 +42,10 @@ Behavioral modeling
 - 📘 [Report](06_4bit_SIPO_Shift_Register/Report.md)
 
 
+### 🛠 Tools & Technologies
 
-
-7. Counters
-
-4-bit Ripple Counter using IC 7473 JK Flip-Flops
-
-Outputs verified on Mixed Signal Oscilloscope (MSO)
-
-8. Mini Project
-
-Verilog model of IC 74x72
-
-AND-gated J-K master-slave flip-flop
-
-Asynchronous preset and clear
-
-Fully pin-compatible
-
-Simulated, synthesized, and tested on FPGA
-
-🛠 Tools & Technologies
-
-Xilinx Vivado (simulation + synthesis)
-
-Verilog HDL
-
-FPGA Boards (Basys 3 / Nexys A7 or similar)
-
-Mixed Signal Oscilloscope (MSO)
-
-Datasheet-based IC modeling
+- Xilinx Vivado (simulation + synthesis)
+- Verilog HDL
+- FPGA Boards (Spartan 7)
+- Mixed Signal Oscilloscope (MSO)
+- Datasheet-based IC modeling
