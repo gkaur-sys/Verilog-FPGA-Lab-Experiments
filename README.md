@@ -3,9 +3,12 @@ This repository contains a complete collection of Digital System Design experime
 Each experiment folder includes Verilog code, testbench, simulation results, and documentation.
 
 🔬 List of Experiments
-1. Combinational Logic
-
-Structural modeling of Y = (ab)' + cd'
+### 1. Structural/Behavioral Modeling of Y = (ab)' + cd'
+- 📄 [Structural Model](01_Y_ABbar_plus_CDbar/structural_model.v)
+- 📄 [Behavioral Model](01_Y_ABbar_plus_CDbar/behavioral_model.v)
+- 🧪 [TB (Structural)](01_Y_ABbar_plus_CDbar/testbench_struct.v)
+- 🧪 [TB (Behavioral)](01_Y_ABbar_plus_CDbar/testbench_behav.v)
+- 📘 [Report](01_Y_ABbar_plus_CDbar/report.md)
 
 2. Multiplexers
 
